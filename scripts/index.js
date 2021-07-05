@@ -94,3 +94,7 @@ function myFunction2() {
 function myFunction3() {
   document.getElementsByClassName("paragraph1")[0].innerHTML="1 person liked this!"
 }
+
+function myFunction4() {
+  document.getElementsByClassName("edit2")[0].innerHTML="You Commented on this post!";
+}
