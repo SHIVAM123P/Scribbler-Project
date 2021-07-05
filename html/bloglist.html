@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../Styles/bloglist.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <!-- TODO: Include Font Awesome file here -->
+  <link rel="stylesheet" href="../Styles/all.min.css">
+  <!-- TODO: Include Google Fonts file here -->
+</head>
+
+<body>
+  <!-- TODO: Include code for header here -->
+
+  <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
+
+  <header>
+    <h2 class="heading1">ScriBBler</h2>
+    <p class="para1">Explore.Imagine.Create</p>
+
+    <button id="myBtn" type="button" class="btn btn-primary">Sign In</button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form class="form1">
+          <h1>Welcome Back</h1>
+          <label for="">Username</label>
+          <input type="email" name="" id="" placeholder="me@example.com" required>
+          <label for="">Password</label>
+          <input type="password" name="" id="" placeholder="e.g, ********" required>
+          <button class="login" type="submit">Sign In</button>
+          <p>Not a Member?</p>
+          <a href="C:\Users\shivam kumar\Desktop\VS code web dev\Scribbler\html\signUpModal.html">Sign Up</a>
+
+
+        </form>
+      </div>
+    </div>
+
+    <button id="myBtn1" type="button" class="btn btn-primary">Sign Up</button>
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form class="form1">
+          <h1>Get Started</h1>
+          <label for="">Full Name</label>
+          <input type="text" placeholder="Enter Full Name" required /><br />
+          <label for="">Username</label>
+          <input type="text" placeholder="Enter Username" required /><br />
+          <label for="">Password</label>
+          <input type="password" placeholder="Enter Password" required /><br />
+          <label for="">Confirm Password</label>
+          <input type="password" placeholder="Confirm Password" required /><br />
+          <button class="Sub_button" type="submit">Sign Up!</button>
+
+
+        </form>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- list of all posts starts here -->
+  <div id="div0" class="">
+
+    <div class="grid-container">
+      <span class="grid-item"><p class="id1">Srishti Gupta</p> </span>
+      <span class="grid-item1"><p class="id1">‘let’ me be a ‘const’(ant), not a ‘var’(iable)!
+        Since JavaScript does not have any type-checking, either of these keywords
+        can be used to declare a variable of any type (datatype) in JavaScript.
+        Though all the three keywords are used for the same
+        purpose, they are different.</p>
+        <div class="icon1">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+       </span>
+       <a class="texttt" href="post.html">...</a>
+
+    </div>
+
+
+    <div class="grid-container1">
+      <span class="grid-item"><p class="id1">Colby Fayock</p> </span>
+      <span class="grid-item1"><p class="id1">What is linting and how can it save you time?
+        One of the biggest challenges in software development is time. It’s something we can’t easily get more
+        of, but linting can help us make the most out of the time we have.</p>
+        <div class="icon2">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </span>
+    </div>
+
+
+    <div class="grid-container2">
+      <span class="grid-item"><p class="id1">Yazeed Bzadough</p> </span>
+      <span class="grid-item1"><p class="id1">How to Get More Views on Your Tech Blog
+        If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog,
+        YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in
+        the industry.</p>
+        <div class="icon1">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </span>
+    </div>
+
+    <div class="grid-container3">
+      <span class="grid-item"><p class="id1">Cedd Burge</p> </span>
+      <span class="grid-item1"><p class="id1">How to write easily describable code
+        When code is not describable using words, most people have to do some mental mapping to turn it in to
+        words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people
+        will map to different words, which
+        leads to confusion when discussing the code.</p>
+        <div class="icon1">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </span>
+    </div>
+
+    <div class="grid-container4">
+      <span class="grid-item"><p class="id1">Srishti Gupta</p> </span>
+      <span class="grid-item1"><p class="id1">Everything you should know about ‘module’ & ‘require’ in Node.js
+        Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing
+        some code and this file is named xyz.js, then this file is treated as a module in Node, and you can
+        say that you’ve created a module
+        named xyz.</p>
+        <div class="icon1">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+      </span>
+    </div>
+
+
+
+    <!-- TODO: Write code for delete post modal here -->
+
+
+
+
+  </div>
+  <!-- list of all posts ends here -->
+  <script src="../scripts/index.js"></script>
+  <script src="../scripts/deleteModal.js"></script>
+
+</body>
+
+</html>

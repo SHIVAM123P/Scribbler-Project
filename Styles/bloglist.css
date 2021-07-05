@@ -1,0 +1,256 @@
+.texttt{
+  position: relative;
+  bottom: 60px;
+  left: 440px;
+  font-size: 50px;
+  color:black;
+}
+
+.grid-container {
+    width: 650px;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 20% 40%;
+    position: relative;
+    left: 200px;
+    margin-bottom: 10px;
+}
+
+.grid-container1 {
+    width: 650px;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 20% 40%;
+    position: relative;
+    right: 200px;
+    left:300px;
+    margin-bottom: 10px;
+}
+
+.grid-container2 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20% 40%;
+    position: relative;
+    right: 700px;
+    top:300px;
+    margin-bottom: 10px;
+}
+
+.grid-container3 {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 20% 40%;
+  position: relative;
+  top: 300px;
+  right: 600px;
+  margin-bottom: 10px;
+}
+
+.grid-container4 {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 20% 40%;
+  position: relative;
+  top: 600px;
+  right: 1300px;
+  margin-bottom: 10px;
+}
+
+
+.id1{
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.grid-item {
+    background-color: #fff;
+    font-size: 1.15rem;
+    /* word-wrap: break-word; */
+    text-align: center;
+    padding-right: 10px;
+}
+
+.grid-item1 {
+    width: 400px;
+    height: 190px;
+    background-color: 	rgb(211,211,211);
+    font-size: 1.15rem;
+    word-wrap: break-word;
+    padding-right: 10px;
+}
+
+.icon1{
+  position: relative;
+  left: 380px;
+  bottom: 70px;
+}
+
+.icon2{
+  position: relative;
+  left: 380px;
+  bottom: 52px;
+}
+
+.heading1{
+  color: blue;
+  font-family: 'Satisfy', cursive;
+  position: relative;
+  bottom: 10px;
+  font-size: 29px;
+}
+.para1{
+  font-family: 'Satisfy', cursive;
+  position: relative;
+  bottom: 20px;
+  font-size: 10px;
+}
+html{
+  background-color: orange;
+}
+#div0{
+  background-color: orange;
+  display: flex;
+  flex-direction:row;
+  flex: initial;
+  display: flexible;
+}
+
+
+header{
+   background-color: orange;
+
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+ display: block;
+ text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.login{
+    background-color: green;
+    width: 140%;
+    margin-top: 10px;
+    padding: 2%;
+    color:white;
+    border: 0;
+}
+
+.form1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    position: relative;
+    left: 40px;
+    bottom:20px;
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input{
+    padding: 2%;
+    width: 200px;
+  	margin-top: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0 10px 0;
+
+}
+
+#myBtn{
+  position: relative;
+  left: 1360px;
+  bottom: 70px;
+}
+
+#myBtn1{
+  position: relative;
+  left: 1360px;
+  bottom: 70px;
+}
+
+#myModal{
+  display: block;
+  text-align: center;
+}
+#myModal1{
+  display: block;
+  text-align: center;
+}
+#button1{
+  position: relative;
+  top: 300px;
+  left: 500px;
+
+}
+
+.Sub_button{
+    background-color: green;
+    width: 200px;
+    margin-top: 10px;
+    color:white;
+	}
+
+.Sub_button:hover{
+    cursor: pointer;
+	}
+
+.login:hover{
+    cursor:pointer;
+
+}
+
+#myBtn{
+  position: relative;
+  left: 1360px;
+  bottom: 70px;
+}
+
+.div1{
+  display: flex;
+
+}
